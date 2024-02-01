@@ -3,3 +3,200 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+    color: rgb(32 33 36 / 1);
+}
+
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5,
+h6 {
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+h1 {
+    margin-bottom: 0.67em;
+    font-size: 2rem;
+}
+
+h2 {
+    margin-bottom: 0.83em;
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-bottom: 1em;
+    font-size: 1.17rem;
+}
+
+h4 {
+    margin-bottom: 1.33em;
+    font-size: 1rem;
+}
+
+h5 {
+    margin-bottom: 1.67em;
+    font-size: .83rem;
+}
+
+h6 {
+    margin-bottom: 2.33em;
+    font-size: .67rem;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+img {
+    border-radius: 4px;
+}
+
+/* Placeholder Header CSS */
+header {
+    width: 100%;
+    height: 175px;
+    background-color: rgb(7 89 133 / 1);
+}
+
+/* Generic Class CSS */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.section {
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+.section-header,
+.section-subheader {
+    width: 100%;
+    text-align: center;
+
+}
+
+.section-paragraph {
+    margin-bottom: 1em;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.text-bold {
+    font-weight: 800;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mtb-3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.mtb-6 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.ptb-3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.ptb-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.bc-gce-gray {
+    /* background-color:rgb(193 198 200 / 1); */
+    background: radial-gradient(circle, rgba(236,237,238,1) 64%, rgba(193,198,200,1) 100%);
+}
+
+.bc-gce-blue {
+    background-color: rgb(0 88 124);
+}
+
+@media (max-width:768px) {
+    .bc-gce-gray {background: linear-gradient(8deg, rgba(230,232,233,1) 0%, rgba(236,237,238,1) 14%, rgba(242,243,244,1) 100%);}
+}
+
+.cta-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cta {
+    width: 50%;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.cta-link {
+    display: block;
+    padding: 15px;
+    font-size: 1rem;
+    color: rgb(255 255 255 / 1);
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(176 17 22 / 1);
+    border-radius: 15px;
+}
+
+.cta-link:hover {
+    cursor: pointer;
+    background-color: rgb(158 15 19 / 1);
+}
+
+/* CSS For Aces High Promo */
+
+.bc-poker-green {
+    background: radial-gradient(circle, rgba(53,101,77,1) 64%, rgba(47,90,69,1) 100%);
+}
+
+.promo-container {
+    width: 100%;
+    display: flex;
+    margin: 60px 0;
+}
+
+.promo-panel {
+    width: 50%;
+}
