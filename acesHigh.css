@@ -236,6 +236,42 @@ header {
     align-items: center;
 }
 
+.promo-rules-container {
+    width: 100%;
+}
+
+.promo-rule {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.promo-rule:last-of-type {
+    margin-bottom: 0;
+}
+
+.promo-rule svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: rgb(32 33 36 / 1);
+}
+
+.promo-rule p {
+    margin-bottom: 0;
+}
+
+.promo-rule-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(32 33 36 / 1);
+    font-weight: 800;
+}
+
+.promo-rule-link:hover {
+    text-decoration: underline;
+}
+
 .circle-ph {
     width: 400px;
     height: 400px;
@@ -270,15 +306,24 @@ header {
     .promo-panel {
         width: 100%;
     }
+
+    .promo-rule {
+        margin-bottom: 32px;
+    }
+
+    .promo-rule svg {
+        width: 18px;
+        height: 18px;
+    }
 }
 
 @media (max-width: 576px) {
-    .circle-ph {
-        width: 175px;
-        height: 175px;
+    .promo-rule svg {
+        width: 16px;
+        height: 16px;
     }
 
-    .square-ph {
+    .circle-ph {
         width: 175px;
         height: 175px;
     }
