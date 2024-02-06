@@ -20,51 +20,105 @@ body {
     color: rgb(32 33 36 / 1);
 }
 
-
 .gce-h1, 
 .gce-h2, 
 .gce-h3, 
 .gce-h4, 
 .gce-h5,
 .gce-h6 {
-    font-weight: 800;
-    line-height: 1.4;
+    font-weight: 800 !important;
+    line-height: 1.4 !important;
+    color: rgb(32 33 36 / 1) !important;
 }
 
 .gce-h1 {
-    margin-bottom: 0.67em;
-    font-size: 2rem;
+    /* margin-bottom: 0.67em;
+    font-size: 2rem; */
+    margin-bottom: 13.4px;
+    font-size: 40px;
 }
 
 .gce-h2 {
-    margin-bottom: 0.83em;
-    font-size: 1.5rem;
+    /* margin-bottom: 0.83em;
+    font-size: 1.5rem; */
+    margin-bottom: 16.6px !important;
+    font-size: 30px !important;
 }
 
 .gce-h3 {
-    margin-bottom: 1em;
-    font-size: 1.17rem;
+    /* margin-bottom: 1em;
+    font-size: 1.17rem; */
+    margin-bottom: 20px;
+    font-size: 23.4px;
 }
 
 .gce-h4 {
-    margin-bottom: 1.33em;
-    font-size: 1rem;
+    /* margin-bottom: 1.33em;
+    font-size: 1rem; */
+    margin-bottom: 26.6px;
+    font-size: 20px;
 }
 
 .gce-h5 {
-    margin-bottom: 1.67em;
-    font-size: .83rem;
+    /* margin-bottom: 1.67em;
+    font-size: .83rem; */
+    margin-bottom: 33.4px;
+    font-size: 16.6px;
 }
 
 .gce-h6 {
-    margin-bottom: 2.33em;
-    font-size: .67rem;
+    /* margin-bottom: 2.33em;
+    font-size: .67rem; */
+    margin-bottom: 46.6px;
+    font-size: 13.4px;
 }
 
 .gce-p {
-    margin-bottom: 1em;
-    font-size: 1rem;
+    /* margin-bottom: 1em;
+    font-size: 1rem; */
+    margin-bottom: 20px;
+    font-size: 20px;
     line-height: 1.4;
+    color: rgb(32 33 36 / 1);
+}
+
+@media (max-width: 768px) {
+    .gce-h1 {
+        /* margin-bottom: 0.67em;
+        font-size: 2rem; */
+        margin-bottom: 10.72px;
+        font-size: 32px;
+    }
+    
+    .gce-h2 {
+        margin-bottom: 13.28px !important;
+        font-size: 24px !important;
+    }
+    
+    .gce-h3 {
+        margin-bottom: 16px;
+        font-size: 18.72px;
+    }
+    
+    .gce-h4 {
+        margin-bottom: 21.28px;
+        font-size: 16px;
+    }
+    
+    .gce-h5 {
+        margin-bottom: 26.72px;
+        font-size: 13.28px;
+    }
+    
+    .gce-h6 {
+        margin-bottom: 37.28px;
+        font-size: 10.72px;
+    }
+    
+    .gce-p {
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
 }
 
 .gce-img {
@@ -116,7 +170,7 @@ body {
 }
 
 .gce-text-white {
-    color: white;
+    color: white !important;
 }
 
 .gce-text-center {
@@ -185,6 +239,7 @@ body {
 .gce-cta-link:hover {
     cursor: pointer;
     background-color: rgb(158 15 19 / 1);
+    color: rgb(255 255 255 / 1);
 }
 
 @media (max-width: 768px) {
@@ -204,7 +259,7 @@ body {
 .gce-promo-container {
     width: 100%;
     display: flex;
-    margin: 60px 0;
+    margin: 30px 0;
 }
 
 .gce-promo-panel {
@@ -236,6 +291,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+}
+
+.gce-promo-graphic img {
+    width: 450px;
+}
+
+.gce-promo-prize {
+    width: 100%;
+}
+
+.gce-promo-prize img {
+    width: 100%;
 }
 
 .gce-promo-rules-container {
@@ -288,9 +356,8 @@ body {
 }
 
 @media (max-width: 992px) {
-    .gce-circle-ph {
+    .gce-promo-graphic img {
         width: 300px;
-        height: 300px;
     }
 
     .gce-square-ph {
@@ -302,7 +369,10 @@ body {
 @media (max-width: 768px) {
     .gce-promo-container {
         flex-direction: column-reverse;
-        gap: 50px;
+    }
+
+    .gce-promo-graphic {
+        width: 100%;
     }
 
     .gce-promo-panel {
