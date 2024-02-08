@@ -281,6 +281,7 @@ body {
 .gce-promo-list {
     margin-bottom: 0;
     list-style-type: none;
+    padding-inline-start: 0 !important;
 }
 
 .gce-promo-list-item {
@@ -300,6 +301,8 @@ body {
 
 .gce-promo-prize {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .gce-promo-prize img {
