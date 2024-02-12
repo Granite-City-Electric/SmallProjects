@@ -339,6 +339,7 @@ body {
     cursor: pointer;
     color: rgb(32 33 36 / 1);
     font-weight: 800;
+    text-decoration: underline;
 }
 
 .gce-promo-rule-link:hover {
