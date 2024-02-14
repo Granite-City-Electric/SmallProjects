@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    color: rgb(32 33 36 / 1);
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5,
+h6 {
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+h1 {
+    margin-bottom: 0.67em;
+    font-size: 2rem;
+}
+
+h2 {
+    margin-bottom: 0.83em;
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-bottom: 1em;
+    font-size: 1.17rem;
+}
+
+h4 {
+    margin-bottom: 1.33em;
+    font-size: 1rem;
+}
+
+h5 {
+    margin-bottom: 1.67em;
+    font-size: .83rem;
+}
+
+h6 {
+    margin-bottom: 2.33em;
+    font-size: .67rem;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+img {
+    border-radius: 4px;
+}
+
+.divider {
+    margin: 30px;
+}
+
+.full-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: .5em;
+    padding-right: .5em;
+    height: 50vh;
+}
+
+.build-at-end {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(241,241,241,1) 100%);
+}
+
+.two-colored {
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+.three-colored {
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%, 150deg, #ffed4b 80%, #fff 80%);
+}
