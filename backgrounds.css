@@ -86,7 +86,3 @@ img {
 .two-colored {
     background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 }
-
-.three-colored {
-    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%, 150deg, #ffed4b 80%, #fff 80%);
-}
