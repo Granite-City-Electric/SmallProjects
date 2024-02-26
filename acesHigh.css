@@ -135,6 +135,7 @@ body {
 /* Generic Class CSS */
 
 .gce-full-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +150,7 @@ body {
 .gce-section {
     width: 100%;
     max-width: 1000px;
-
+    z-index: 2;
 }
 
 .gce-section-header,
@@ -417,6 +418,36 @@ body {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(245,137,73,1) 100%);
 }
+
+.gce-text-march-mania-orange {
+    color: rgba(242 105 48 / 1) !important;
+}
+
+.gce-bg-basketball {
+    position: absolute;
+    opacity: .6;
+}
+
+.gce-bg-basketball-right {
+    width: 40%;
+    top: -15%;
+    right: -15.5%;
+}
+
+.gce-bg-basketball-mid-right {
+    height: 30%;
+    top: 20px;
+    right: 500px;
+    transform: rotate(120deg);
+}
+
+.gce-bg-basketball-left {
+    width: 35%;
+    bottom: 0;
+    left: -12.5%;
+    transform: rotate(90deg);
+}
+
 .gce-march-mania-divider {
     width: 100%;
     height: 20px;
@@ -429,4 +460,10 @@ body {
 
 .gce-cta-link-march-mania:hover {
     background-color: rgba(17 103 157 / 1);;
+}
+
+@media (max-width:768px) {
+    .gce-bg-basketball {
+        display: none;
+    }
 }
