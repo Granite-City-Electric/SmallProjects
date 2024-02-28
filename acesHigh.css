@@ -427,6 +427,10 @@ body {
     color: rgba(22 129 197 / 1) !important;
 }
 
+.gce-bc-march-mania-orange {
+    background-color: rgba(242 105 48 / 1);
+} 
+
 .gce-bg-basketball {
     position: absolute;
     opacity: .6;
@@ -469,5 +473,64 @@ body {
 @media (max-width:768px) {
     .gce-bg-basketball {
         display: none;
+    }
+}
+
+.gce-march-mania-vendors-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.gce-march-mania-vendors-section {
+    width: 50%;
+    border: 3px solid rgba(242 105 48 / 1);
+}
+
+.gce-march-mania-vendors-section-header {
+    display: flex;
+}
+
+.gce-march-mania-vendors-section-header-panel {
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+.gce-march-mania-vendors-section-header-panel h3 {
+    margin-bottom: 0;
+}
+
+.gce-march-mania-vendors-section-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gce-march-mania-vendors-section-grid-item {
+    width: 33%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.gce-march-mania-vendors-section-grid-item img {
+    width: 65%;
+}
+
+@media (max-width:768px) {
+    .gce-march-mania-vendors-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gce-march-mania-vendors-section {
+        width: 80%;
+    }
+}
+
+@media (max-width:576px) {
+    .gce-march-mania-vendors-section {
+        width: 100%;
     }
 }
