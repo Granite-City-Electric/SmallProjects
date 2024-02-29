@@ -279,6 +279,10 @@ body {
     width: 100%;
 }
 
+.gce-promo-description-header {
+    text-align: center;
+}
+
 .gce-promo-description p {
     margin-bottom: 0;
 }
@@ -310,10 +314,12 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .gce-promo-prize img {
-    width: 100%;
+    width: 80%;
 }
 
 .gce-promo-rules-container {
@@ -431,6 +437,10 @@ body {
     background-color: rgba(242 105 48 / 1);
 } 
 
+.gce-bc-march-mania-blue {
+    background-color: rgba(22 129 197 / 1);
+} 
+
 .gce-bg-basketball {
     position: absolute;
     opacity: .6;
@@ -512,10 +522,12 @@ body {
     padding: 20px 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .gce-march-mania-vendors-section-grid-item img {
     width: 65%;
+    height: auto;
 }
 
 @media (max-width:768px) {
@@ -533,4 +545,8 @@ body {
     .gce-march-mania-vendors-section {
         width: 100%;
     }
+}
+
+#gce-march-manie-fridge-img {
+    width: 50%;;
 }
