@@ -447,6 +447,10 @@ body {
     background-color: rgba(22 129 197 / 1);
 } 
 
+.gce-march-mania-hero {
+    overflow: hidden;
+  }
+
 .gce-bg-basketball {
     position: absolute;
     opacity: .6;
@@ -526,6 +530,13 @@ body {
 .gce-march-mania-vendors-section-grid-item {
     width: 33%;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gce-march-mania-vendors-section-grid-item a {
+    line-height: 0;
     display: flex;
     justify-content: center;
     align-items: center;
