@@ -1,0 +1,35 @@
+body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif;}
+
+.gce-hs-bc-white {background-color: white;}
+.gce-hs-bc-lgray {background-color: rgba(244 244 244 / 1);}
+.gce-hs-bc-logo-blue{background-color: rgba(25 91 134 / 1);}
+
+.gce-hs-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gce-hs-section {
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* GCE Home Services Top Nav CSS */
+
+.gce-hs-nav-logo {width: 400px;}
+
+.gce-hs-nav-links-container {
+    display: flex;
+    list-style: none;
+}
+
+.gce-hs-nav-link {margin-right: 75px;}
+
+.gce-hs-nav-link a {
+    padding: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
