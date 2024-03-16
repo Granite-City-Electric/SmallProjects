@@ -1,25 +1,54 @@
-body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif;}
+body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; color: black;}
 
 .gce-hs-bc-white {background-color: white;}
-.gce-hs-bc-lgray {background-color: rgba(244 244 244 / 1);}
+.gce-hs-bc-lgray {background-color: rgba(240 240 240 / 1);}
 .gce-hs-bc-logo-blue{background-color: rgba(25 91 134 / 1);}
 
-.gce-hs-container {
-    width: 100%;
+.gce-hs-text-white{color: white;}
+.gce-hs-text-logo-blue{color: rgba(25 91 134 / 1);}
+
+.gce-hs-ptb-1 {padding: 16px 0;}
+.gce-hs-ptb-2 {padding: 32px 0;}
+.gce-hs-ptb-3 {padding: 48px 0;}
+
+.gce-hs-flex-center {
     display: flex;
     justify-content: center;
 }
+
+.gce-hs-flex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gce-hs-container {width: 100%;}
 
 .gce-hs-section {
     width: 100%;
     max-width: 1000px;
 }
 
+.gce-hs-header {
+    margin: 0;
+    margin-bottom: 32px;
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.gce-hs-subheader {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.gce-hs-paragraph {font-size: 20px;}
+
 /* GCE Home Services Top Nav CSS */
 
-.gce-hs-nav-logo {width: 400px;}
+.gce-hs-nav-logo {width: 275px;}
 
 .gce-hs-nav-links-container {
+    padding: 0;
     display: flex;
     list-style: none;
 }
@@ -27,9 +56,31 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif;}
 .gce-hs-nav-link {margin-right: 75px;}
 
 .gce-hs-nav-link a {
-    padding: 10px;
-    font-weight: 800;
-    font-size: 18px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 19px;
     color: black;
     text-decoration: none;
+}
+
+
+/* GCE Home Services Home Page Hero CSS */
+
+.gce-hs-contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.gce-hs-contact-method {
+    width: 47.5%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.gce-hs-hero-bi {
+    width: 48px;
+    height: 48px;
+    fill: rgba(25 91 134 / 1);
 }
