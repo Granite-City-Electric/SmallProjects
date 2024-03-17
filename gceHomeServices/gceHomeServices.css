@@ -41,6 +41,12 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
     font-weight: 800;
 }
 
+.gce-hs-h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 800;
+}
+
 .gce-hs-paragraph {font-size: 20px;}
 
 /* GCE Home Services Top Nav CSS */
@@ -75,7 +81,12 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 
 .gce-hs-contact-method {
     width: 47.5%;
+    margin-top: 16px;
+    padding: 10px;
     border-radius: 8px;
+}
+
+.gce-hs-contact-method-header {
     text-align: center;
 }
 
