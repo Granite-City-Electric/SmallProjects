@@ -1,4 +1,4 @@
-body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; color: rgb(32 33 36 / 1);}
+body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; color: rgba(32 33 36 / 1);}
 
 .gce-hs-bc-white {background-color: white;}
 .gce-hs-bc-lgray {background-color: rgba(240 240 240 / 1);}
@@ -150,3 +150,53 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 .gce-hs-testimonial {width: 28%;}
 
 .gce-hs-testimonial-text {font-size: 15px;}
+
+/* GCE Home Services Home Page How It Works CSS */
+
+.gce-hs-process-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gce-hs-process-item {width: 28%;}
+
+/* GCE Home Services Footer CSS */
+
+.gce-hs-footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gce-hs-footer-link {margin: 0 20px;}
+
+.gce-hs-footer-link a {
+    padding: 5px;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgba(108 111 112 / 1);
+    text-decoration: none;
+}
+
+.gce-hs-footer-link a:hover {
+    text-decoration: underline;
+}
+
+.gce-hs-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(108 111 112 / 1);
+}
+
+.gce-hs-footer-bottom-nav-link {margin-right: 25px;}
+
+.gce-hs-footer-bottom-nav-link a {
+    color: rgba(108 111 112 / 1);
+    text-decoration: none;
+}
+
+.gce-hs-footer-bottom-nav-link a:hover{text-decoration: underline;}
