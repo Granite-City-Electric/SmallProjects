@@ -4,9 +4,10 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 .gce-hs-bc-lgray {background-color: rgba(240 240 240 / 1);}
 .gce-hs-bc-logo-blue{background-color: rgba(25 91 134 / 1);}
 .gce-hs-bc-dark-blue{background-color: rgba(10 36 53 / 1);}
-
-.gce-hs-text-white{color: white;}
-.gce-hs-text-logo-blue{color: rgba(25 91 134 / 1);}
+.gce-hs-bc-hero{
+    background-image: url("https://us.evocdn.io/dealer/1280/content/media/Content_Pages/gce-home-services/ne_home_exterior.png");
+    background-position: center;
+}
 
 .gce-hs-ptb-1 {padding: 16px 0;}
 .gce-hs-ptb-2 {padding: 32px 0;}
@@ -26,11 +27,21 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
     align-items: center;
 }
 
-.gce-hs-container {width: 100%;}
+.gce-hs-container {width: 100%; position: relative;}
+
+.gce-hs-container-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0 0 0 / .55);
+}
 
 .gce-hs-section {
     width: 100%;
     max-width: 1000px;
+    z-index: 2;
 }
 
 .gce-hs-header {
@@ -43,17 +54,25 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 .gce-hs-subheader {
     margin: 0;
     margin-bottom: 26px;
-    font-size: 28px;
-    font-weight: 800;
+    font-size: 28px !important;
+    font-weight: 800 !important;
+    color: rgba(32 33 36 / 1) !important;
 }
 
 .gce-hs-h3 {
     margin: 0;
     font-size: 22px;
     font-weight: 800;
+    color: rgba(32 33 36 / 1) !important;
 }
 
-.gce-hs-paragraph {font-size: 20px;}
+.gce-hs-paragraph {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.gce-hs-text-white{color: white !important;}
+.gce-hs-text-logo-blue{color: rgba(25 91 134 / 1);}
 .gce-hs-bold-text {font-weight: 800;}
 
 /* GCE Home Services Top Nav CSS */
@@ -61,18 +80,19 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 .gce-hs-nav-logo {width: 275px;}
 
 .gce-hs-nav-links-container {
+    margin: 16px 0;
     padding: 0;
     display: flex;
     list-style: none;
 }
 
-.gce-hs-nav-link {margin-right: 75px;}
+.gce-hs-nav-link {margin-right: 75px; margin-bottom: 0;}
 
 .gce-hs-nav-link a {
     padding: 5px;
     font-weight: 600;
     font-size: 19px;
-    color: rgb(32 33 36 / 1);
+    color: rgba(32 33 36 / 1);
     text-decoration: none;
 }
 
@@ -99,7 +119,7 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 .gce-hs-hero-bi {
     width: 48px;
     height: 48px;
-    fill: rgba(25 91 134 / 1);
+    fill: rgba(32 33 36 / 1);
 }
 
 /* GCE Home Services Home Page Cards CSS */
