@@ -220,3 +220,10 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 }
 
 .gce-hs-footer-bottom-nav-link a:hover{text-decoration: underline;}
+
+/* GCE Home Services HVAC CSS */
+
+.gce-hs-bc-hero-hvac {
+    background-image: url("spacejoy-9M66C_w_ToM-unsplash.png");
+    background-size: cover;
+}
