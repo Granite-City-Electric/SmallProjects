@@ -4,6 +4,7 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 .gce-hs-bc-lgray {background-color: rgba(240 240 240 / 1);}
 .gce-hs-bc-logo-blue{background-color: rgba(25 91 134 / 1);}
 .gce-hs-bc-dark-blue{background-color: rgba(10 36 53 / 1);}
+.gce-hs-bc-light-black{background-color: rgba(32 33 36 / 1);}
 .gce-hs-bc-hero{
     background-image: url("https://us.evocdn.io/dealer/1280/content/media/Content_Pages/gce-home-services/ne_home_exterior.png");
     background-position: center;
@@ -73,6 +74,8 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 
 .gce-hs-text-white{color: white !important;}
 .gce-hs-text-logo-blue{color: rgba(25 91 134 / 1);}
+.gce-hs-text-heating-red{color: rgba(230 11 43 / 1);}
+.gce-hs-text-cooling-blue{color: rgba(50 89 188 / 1);}
 .gce-hs-bold-text {font-weight: 800;}
 
 /* GCE Home Services Top Nav CSS */
@@ -220,6 +223,34 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 }
 
 .gce-hs-footer-bottom-nav-link a:hover{text-decoration: underline;}
+
+/* GCE Home Services Checkmarks CSS */
+
+.gce-hs-feature-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.gce-hs-feature-check-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.gce-hs-check {
+    display: flex;
+    justify-content: center;
+    min-width: 35px;
+    width: 25px;
+    height: 25px;
+}
+
+.gce-hs-fill-white {fill: white;}
 
 /* GCE Home Services HVAC CSS */
 
