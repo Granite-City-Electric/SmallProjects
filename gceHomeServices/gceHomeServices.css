@@ -266,7 +266,6 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 
 .gce-hs-designed-list-card {
     width: 50%;
-    background-color: rgba(243 245 245 / 1);
     -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px; 
 }
@@ -311,6 +310,67 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
     margin: 0;
     font-size: 16px;
 }
+
+/* GCE Home Services Dropdowns (FAQ) CSS */
+
+.gce-hs-dropdown-container{
+    width: 100%;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.gce-hs-dropdown-header-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.gce-hs-dropdown-header{
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+.gce-hs-dropdown-icon{
+    position: relative;
+    height: 44px;
+    width: 44px;
+    background-color: rgb(34 34 34);
+}
+
+.gce-hs-bar-1,
+.gce-hs-bar-2 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255 255 255 / 1);
+}
+
+.gce-hs-bar-1{
+    width: 15px;
+    height: 2px;
+}
+
+.gce-hs-bar-2{
+    width: 2px;
+    height: 15px;
+    transition: .15s ease-out;
+}
+
+.gce-hs-dropdown-content-container{
+    overflow: hidden;
+    /* max-height: 0; */
+    padding: 0 18px;
+    border: 1px solid rgb(246 246 248 / 1);
+    border-top: 0;
+    background-color: white;
+    transition: max-height 0.15s ease-out;
+}
+.gce-hs-dropdown-content{margin: 20px 0;}
 
 /* GCE Home Services HVAC CSS */
 
