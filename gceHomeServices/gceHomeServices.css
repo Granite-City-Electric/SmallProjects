@@ -252,6 +252,66 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 
 .gce-hs-fill-white {fill: white;}
 
+/* GCE Home Services Designed List w/ Background Image CSS */
+
+.gce-hs-designed-list-bg-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right 16px top;
+    height: 700px;
+}
+
+.gce-hs-designed-list-card {
+    width: 50%;
+    background-color: rgba(243 245 245 / 1);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px 0px; 
+}
+
+.gce-hs-designed-list-card-item {
+    padding: 15px 20px;
+    display: flex;
+    border-top: 1px solid rgba(230 230 230 / 1);
+}
+
+.gce-hs-designed-list-card-item:first-of-type {border: none;}
+
+.gce-hs-designed-list-card-number {
+    height: 30px;
+    width: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 30px;
+    font-size: 22px;
+    font-weight: 800;
+    border: 2px solid rgba(32 33 36 / 1);
+    border-radius: 50%;
+}
+
+.gce-hs-designed-list-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.gce-hs-designed-list-card-header {
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: rgba(32 33 36 / 1);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.gce-hs-designed-list-card-desc {
+    margin: 0;
+    font-size: 16px;
+}
+
 /* GCE Home Services HVAC CSS */
 
 .gce-hs-bc-hero-hvac {
