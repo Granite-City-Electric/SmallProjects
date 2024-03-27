@@ -45,6 +45,10 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
     z-index: 2;
 }
 
+.gce-hs-half-section {
+    width: 50%;
+}
+
 .gce-hs-header {
     margin: 0;
     margin-bottom: 32px;
@@ -71,6 +75,27 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
     font-size: 20px;
     line-height: 1.4;
 }
+
+.gce-hs-link-container {
+    width: 100%;
+    display: flex;
+    gap: 5%;
+}
+
+
+.gce-hs-link-container a {
+    padding: 24px 10px;
+    border: 1px solid rgba(25 91 134 / 1);
+    border-radius: 8px;
+    color: rgba(25 91 134 / 1);
+    text-decoration: none;
+}
+
+.gce-hs-link-container a:hover {
+    color: white;
+    background-color: rgba(25 91 134 / 1);
+}
+
 
 .gce-hs-text-white{color: white !important;}
 .gce-hs-text-logo-blue{color: rgba(25 91 134 / 1);}
@@ -381,4 +406,14 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
     background-image: url("alexandra-gorn-JIUjvqe2ZHg-unsplash_web.png");
     background-size: cover;
     background-position: center center;
+}
+
+.gce-hs-nanoeX-banner {
+    background-image: url('https://us.evocdn.io/dealer/1280/content/media/Content_Pages/home-comfort/home-comfort-banner-text.jpg');
+    background-size: cover;
+    background-position: center right;
+}
+
+.gce-hs-mass-save-logo {
+    width: 80%;
 }
