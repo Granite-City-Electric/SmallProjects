@@ -361,11 +361,14 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
     transition: .15s ease-out;
 }
 
+.gce-hs-bar-active {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
 .gce-hs-dropdown-content-container{
     overflow: hidden;
-    /* max-height: 0; */
+    max-height: 0;
     padding: 0 18px;
-    border: 1px solid rgb(246 246 248 / 1);
     border-top: 0;
     background-color: white;
     transition: max-height 0.15s ease-out;
