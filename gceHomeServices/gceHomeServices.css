@@ -28,6 +28,10 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
     align-items: center;
 }
 
+.gce-hs-flex-justify-center {
+    justify-content: center;
+}
+
 .gce-hs-container {width: 100%; position: relative;}
 
 .gce-hs-container-overlay {
@@ -74,6 +78,10 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 .gce-hs-paragraph {
     font-size: 20px;
     line-height: 1.4;
+}
+
+.gce-hs-text-large {
+    font-size: 48px;
 }
 
 .gce-hs-link-container {
@@ -126,6 +134,7 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 
 /* GCE Home Services Home Page Hero CSS */
 
+/* First Iteration Hero Contact CSS */
 .gce-hs-contact-container {
     width: 100%;
     display: flex;
@@ -149,6 +158,32 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
     height: 48px;
     fill: rgba(32 33 36 / 1);
 }
+
+/* First Iteration Hero Contact CSS ENDS */
+
+/* Second Iteration Hero Contact CSS STARTS */
+
+.gce-hs-contact-link {
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.gce-hs-contact-link:hover {
+    background-color: rgba(22 81 120 / 1);
+}
+
+.gce-hs-contact-text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/* Second Iteration Hero Contact CSS ENDS */
 
 /* GCE Home Services Home Page Cards CSS */
 
@@ -325,10 +360,10 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 .gce-hs-designed-list-card-header {
     margin-top: 0;
     margin-bottom: 6px;
-    color: rgba(32 33 36 / 1);
+    color: rgba(32 33 36 / 1) !important;
     font-weight: 800;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 20px !important; 
+    line-height: 28px !important;
 }
 
 .gce-hs-designed-list-card-desc {
@@ -403,7 +438,7 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 /* GCE Home Services HVAC CSS */
 
 .gce-hs-bc-hero-hvac {
-    background-image: url("alexandra-gorn-JIUjvqe2ZHg-unsplash_web.png");
+    background-image: url("https://us.evocdn.io/dealer/1280/content/media/Content_Pages/gce-home-services/alexandra-gorn-JIUjvqe2ZHg-unsplash_web.png");
     background-size: cover;
     background-position: center center;
 }
