@@ -43,6 +43,8 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
     background-color: rgba(0 0 0 / .55);
 }
 
+.gce-hs-hero-margin {margin-top: 202px;}
+
 .gce-hs-section {
     width: 100%;
     max-width: 1000px;
@@ -112,6 +114,14 @@ body {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; colo
 .gce-hs-bold-text {font-weight: 800;}
 
 /* GCE Home Services Top Nav CSS */
+.gce-hs-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    /* border-bottom: 1px solid rgba(145 145 145 / 1); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
 
 .gce-hs-nav-logo {width: 275px;}
 
