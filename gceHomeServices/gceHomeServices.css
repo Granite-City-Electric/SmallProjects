@@ -67,6 +67,10 @@
     }
 }
 
+@media (max-width:768px) {
+    .gce-hs-hero-margin{margin-top:142px;}
+}
+
 .gce-hs-half-section img {width: 90%;}
 
 .gce-hs-header {
@@ -215,10 +219,18 @@
     cursor: pointer;
 }
 
+.gce-hs-hide-mobile-menu {
+    display: none;
+}
+
 @media (max-width:768px) {
     .gce-hs-nav-desktop-links-container {
         display: none;
     }
+}
+
+@media (max-width:360px) {
+    .gce-hs-nav-logo {width: 225px;}
 }
 
 /* GCE Home Services Home Page Hero CSS */
