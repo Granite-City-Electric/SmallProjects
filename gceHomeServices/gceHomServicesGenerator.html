@@ -12,13 +12,16 @@
 <body>
     <nav class="gce-hs-nav">
         <div class="gce-hs-container gce-hs-flex-center gce-hs-bc-white">
-            <div class="gce-hs-section gce-hs-ptb-2">
+            <div class="gce-hs-section gce-hs-ptb-2 gce-hs-nav-section">
                 <img class="gce-hs-nav-logo" src="https://us.evocdn.io/dealer/1280/content/media/Content_Pages/gce-home-services/MKT_GCE Home Services Logo.png" alt="GCE Home Services Logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="gce-hs-bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                  </svg>
             </div>
         </div>
         <div class="gce-hs-container gce-hs-flex-center gce-hs-bc-lgray">
             <div class="gce-hs-section">
-                <ul class="gce-hs-nav-links-container">
+                <ul class="gce-hs-nav-links-container gce-hs-nav-desktop-links-container ">
                     <li class="gce-hs-nav-link">
                         <a href="https://www.granitecityelectric.com/gce-home-services-hvac">Home Heating & Cooling</a>
                     </li>
@@ -28,11 +31,20 @@
                     </li>
                     <li class="gce-hs-nav-link"><a href="https://www.granitecityelectric.com/gce-home-services-ev-charging">EV Charging</a></li>
                 </ul>
+                <ul class="gce-hs-nav-links-mobile-container gce-hs-hide-mobile-menu">
+                    <li class="gce-hs-nav-link">
+                        <a href="https://www.granitecityelectric.com/gce-home-services-hvac">Home Heating & Cooling</a>
+                    </li>
+                    <li class="gce-hs-nav-link"><a href="https://www.granitecityelectric.com/gce-home-services-generators">Generators</a></li>
+                    <li class="gce-hs-nav-link"><a href="https://www.granitecityelectric.com/gce-home-services-ev-charging">EV Charging</a></li>
+                </ul>
             </div>
         </div>
     </nav>
     <div class="gce-hs-container gce-hs-flex-col-center gce-hs-ptb-3 gce-hs-hero-margin">
-        <h1 class="gce-hs-header" style="text-align: center;">Ensure Your Home Has Power <br>During the Worst New England Weather</h1>
+        <div class="gce-hs-section">
+            <h1 class="gce-hs-header" style="text-align: center;">Ensure Your Home Has Power During the Worst New England Weather</h1>
+        </div>
         <div class="gce-hs-section gce-hs-flex-center">
             <div class="gce-hs-half-section gce-hs-flex-col-center gce-hs-flex-justify-center">
                 <p class="gce-hs-contact-text">
@@ -48,14 +60,13 @@
             </div>
             <div class="gce-hs-half-section gce-hs-flex-col-center gce-hs-flex-justify-center">
                 <img src="https://us.evocdn.io/dealer/1280/content/media/Content_Pages/Generators Contractors/30285-01_22RES_Camo_Patterns-Mockup-Up Country 3.jpg" alt="Kohler Camo">
-                <h3 class="gce-hs-h3">Experience the Kohler Generator Difference</h3>
             </div>
         </div>
     </div>
     <div class="gce-hs-container gce-hs-flex-col-center gce-hs-ptb-3">
         <div class="gce-hs-section">
-            <p class="gce-hs-paragraph">We're excited to announce that we're currently revamping our EV-Charging Service to better serve your needs.</p>
-        <p class="gce-hs-paragraph">During this period of enhancement, our EV-Charging Service section will be under construction. But fret not, as our team is  working behind the scenes to bring you an electrifying experience.</p>
+            <p class="gce-hs-paragraph">We're excited to inform you that we're currently enhancing our services to better cater to your needs. As part of this upgrade, our generator service section is undergoing construction.</p>
+        <p class="gce-hs-paragraph">Rest assured, we're diligently working behind the scenes to bring you an even more robust and efficient generator service experience. Our team is committed to ensuring that your power needs are met with utmost reliability and professionalism.</p>
         </div>
     </div>
 
@@ -81,6 +92,12 @@
             </ul>
         </div>
     </div>
-    <script src="gceHomeServicesGenerator.js"></script>
+    <script>
+        const btn = document.querySelector('.gce-hs-bi-list');
+        const links = document.querySelector('.gce-hs-nav-links-mobile-container');
+        btn.addEventListener('click', () => {
+            links.classList.toggle('gce-hs-hide-mobile-menu')
+        })
+    </script>
 </body>
 </html>
