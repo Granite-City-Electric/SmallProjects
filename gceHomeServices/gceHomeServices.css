@@ -36,8 +36,8 @@
 .gce-hs-container {
     width: 100%; 
     position: relative;
-    padding-left: 10px;
-    padding-right: 10px; 
+    padding-left: 15px;
+    padding-right: 15px; 
 }
 
 .gce-hs-container-overlay {
@@ -65,10 +65,16 @@
     .gce-hs-half-section {
         width: 100%;
     }
+
+    .gce-hs-half-section:first-of-type{margin-bottom: 30px}
 }
 
 @media (max-width:768px) {
     .gce-hs-hero-margin{margin-top:142px;}
+}
+
+@media (max-width:360px) {
+    .gce-hs-hero-margin{margin-top:129px;}
 }
 
 .gce-hs-half-section img {width: 90%;}
@@ -98,6 +104,8 @@
 .gce-hs-paragraph {
     font-size: 20px;
     line-height: 1.4;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .gce-hs-text-large {
@@ -113,9 +121,9 @@
 
 .gce-hs-link-container a {
     padding: 24px 10px;
-    border: 1px solid rgba(25 91 134 / 1);
+    background-color: rgba(25 91 134 / 1);
     border-radius: 8px;
-    color: rgba(25 91 134 / 1);
+    color: white;
     text-decoration: none;
 }
 
@@ -213,6 +221,7 @@
 }
 
 .gce-hs-bi-list {
+    display: none;
     padding: 5px;
     border: 1px solid #f2f2f2;
     border-radius: 8px;
@@ -227,6 +236,8 @@
     .gce-hs-nav-desktop-links-container {
         display: none;
     }
+
+    .gce-hs-bi-list {display: block;}
 }
 
 @media (max-width:360px) {
@@ -402,6 +413,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.gce-hs-footer-bottom span {
     font-size: 13px;
     font-weight: 600;
     color: rgba(108 111 112 / 1);
@@ -427,6 +441,14 @@
         justify-content: center;
         gap: 35px;
     }
+}
+
+@media (max-width:425px) {
+    .gce-hs-footer-link {margin-right: 15px;}
+
+.gce-hs-footer-link a {
+    font-size: 13px;
+}
 }
 
 /* GCE Home Services Checkmarks CSS */
@@ -514,6 +536,21 @@
 .gce-hs-designed-list-card-desc {
     margin: 0;
     font-size: 16px;
+}
+
+#gce-hs-designed-list-bg-img-hvac {background-image: url('https://us.evocdn.io/dealer/1280/content/media/Content_Pages/gce-home-services/GCE_Home_Comfort_Life_style_Image_1_shutterstock_1555431512-01.png');}
+
+@media (max-width:768px) {
+    .gce-hs-designed-list-bg-img {
+        justify-content: center;
+        height: auto;
+    }
+
+    #gce-hs-designed-list-bg-img-hvac {background-image: none;}
+
+    .gce-hs-designed-list-card {
+        width: 90%;
+    }
 }
 
 /* GCE Home Services Dropdowns (FAQ) CSS */
