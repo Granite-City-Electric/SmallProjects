@@ -12,13 +12,16 @@
 <body>
     <nav class="gce-hs-nav">
         <div class="gce-hs-container gce-hs-flex-center gce-hs-bc-white">
-            <div class="gce-hs-section gce-hs-ptb-2">
+            <div class="gce-hs-section gce-hs-ptb-2 gce-hs-nav-section">
                 <img class="gce-hs-nav-logo" src="https://us.evocdn.io/dealer/1280/content/media/Content_Pages/gce-home-services/MKT_GCE Home Services Logo.png" alt="GCE Home Services Logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="gce-hs-bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                  </svg>
             </div>
         </div>
         <div class="gce-hs-container gce-hs-flex-center gce-hs-bc-lgray">
             <div class="gce-hs-section">
-                <ul class="gce-hs-nav-links-container">
+                <ul class="gce-hs-nav-links-container gce-hs-nav-desktop-links-container ">
                     <li class="gce-hs-nav-link">
                         <a href="https://www.granitecityelectric.com/gce-home-services-hvac">Home Heating & Cooling</a>
                     </li>
@@ -30,10 +33,43 @@
                         <div class="gce-hs-nav-indicator gce-hs-bc-logo-blue"></div>
                     </li>
                 </ul>
+                <ul class="gce-hs-nav-links-mobile-container gce-hs-hide-mobile-menu">
+                    <li class="gce-hs-nav-link"><a href="https://www.granitecityelectric.com/gce-home-services-hvac">Home Heating & Cooling</a></li>
+                    <li class="gce-hs-nav-link"><a href="https://www.granitecityelectric.com/gce-home-services-generators">Generators</a></li>
+                    <li class="gce-hs-nav-link"><a href="https://www.granitecityelectric.com/gce-home-services-ev-charging">EV Charging</a></li>
+                </ul>
             </div>
         </div>
     </nav>
-
+    <div class="gce-hs-container gce-hs-flex-col-center gce-hs-ptb-3 gce-hs-hero-margin">
+        <div class="gce-hs-section">
+            <h1 class="gce-hs-header" style="text-align: center;">The Future of Mobility is Electric</h1>
+            <h2 class="gce-hs-subheader" style="text-align: center;">Our Electric Vehicle Charging Solutions Are Utilized by Thousands of Homeowners</h2>
+        </div>
+        <div class="gce-hs-section gce-hs-flex-center">
+            <div class="gce-hs-half-section gce-hs-flex-col-center gce-hs-flex-justify-center">
+                <p class="gce-hs-contact-text">
+                    call <br>
+                    <span class="gce-hs-text-large">800-242-0911</span><br>
+                    to Get Your Free Quote Process Started
+                    <br> or
+                </p>
+                <a href="https://www.granitecityelectric.com/gce-home-comfort-assessment" class="gce-hs-contact-link gce-hs-bc-logo-blue" style="text-align:center; margin: 20px 0;">GET MORE INFO</a>
+                <p class="gce-hs-contact-text">
+                    on our free home assessment and job estimate process and our certified & fully licensed installers providing white glove services
+                </p>
+            </div>
+            <div class="gce-hs-half-section gce-hs-flex-col-center gce-hs-flex-justify-center">
+                <img src="https://us.evocdn.io/dealer/1280/content/media/Content_Pages/ev-charging-goup/gce-ev-benefits.jpg" alt="Kohler Camo">
+            </div>
+        </div>
+    </div>
+    <div class="gce-hs-container gce-hs-flex-col-center gce-hs-ptb-3">
+        <div class="gce-hs-section">
+            <p class="gce-hs-paragraph">We're excited to announce that we're currently revamping our EV Charging Service to better serve your needs.</p>
+        <p class="gce-hs-paragraph">During this period of enhancement, our EV Charging Service section will be under construction. But fret not, as our team is working behind the scenes to bring you an electrifying experience.</p>
+        </div>
+    </div>
 
     <div class="gce-hs-container gce-hs-flex-center gce-hs-bc-lgray gce-hs-ptb-3">
         <div class="gce-hs-section">
@@ -57,5 +93,12 @@
             </ul>
         </div>
     </div>
+    <script>
+        const btn = document.querySelector('.gce-hs-bi-list');
+        const links = document.querySelector('.gce-hs-nav-links-mobile-container');
+        btn.addEventListener('click', () => {
+            links.classList.toggle('gce-hs-hide-mobile-menu')
+        })
+    </script>
 </body>
 </html>

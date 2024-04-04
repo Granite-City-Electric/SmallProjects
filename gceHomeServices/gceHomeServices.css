@@ -413,11 +413,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .gce-hs-footer-bottom span {
-    font-size: 13px;
-    font-weight: 600;
     color: rgba(108 111 112 / 1);
 }
 
