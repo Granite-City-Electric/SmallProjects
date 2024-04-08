@@ -1,9 +1,135 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {margin: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; color: rgba(32 33 36 / 1);}
+
+.gce-bc-white {background-color: white;}
+.gce-bc-lgray {background-color: rgba(240 240 240 / 1);}
+.gce-bc-logo-blue{background-color: rgba(25 91 134 / 1);}
+.gce-bc-dark-blue{background-color: rgba(10 36 53 / 1);}
+.gce-bc-light-black{background-color: rgba(32 33 36 / 1);}
+.gce-bc-hero{
+    background-image: url("https://us.evocdn.io/dealer/1280/content/media/Content_Pages/gce-home-services/ne_home_exterior.png");
+    background-position: center;
 }
 
-body {
-    background-color: antiquewhite;
+.gce-ptb-1 {padding-top: 16px; padding-bottom: 16px;}
+.gce-ptb-2 {padding-top: 32px; padding-bottom: 32px;}
+.gce-ptb-3 {padding-top: 48px; padding-bottom: 48px;}
+.gce-pb-1 {padding-bottom:16px;}
+.gce-pb-2 {padding-bottom:32px;}
+.gce-pb-3 {padding-bottom:48px;}
+
+.gce-flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gce-flex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gce-flex-justify-center {
+    justify-content: center;
+}
+
+.gce-container {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+.gce-container-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0 0 0 / .55);
+}
+
+.gce-hs-hero-margin {margin-top: 202px;}
+
+.gce-section {
+    width: 100%;
+    max-width: 1000px;
+    z-index: 2;
+}
+
+.gce-half-section {
+    width: 50%;
+}
+
+.gce-header {
+    font-size: 44px;
+    font-weight: 800;
+    color: rgba(32 33 36 / 1) !important;
+}
+
+.gce-subheader {
+    margin-bottom: 26px;
+    font-size: 28px !important;
+    font-weight: 800 !important;
+    color: rgba(32 33 36 / 1) !important;
+}
+
+.gce-text-center {
+    text-align: center;
+}
+
+/* placeholder CSS */
+
+.gce-logo-ph {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* pop up css */
+
+.gce-pu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0 0 0 / .55);
+    z-index: 10;
+}
+
+.gce-pu-hide {
+    display: none;
+}
+
+.gce-pu-content {
+    width:100%;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.gce-pu-content-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gce-pu-closeout-container {
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.gce-pu-closeout-container:hover {background-color: rgba(240 240 240 / 1);}
+
+.gce-pu-closeout {
+    fill: rgba(32 33 36 / 1);
+    width: 44px;
+    height: 44px;
 }
