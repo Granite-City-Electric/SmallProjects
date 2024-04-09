@@ -1,4 +1,4 @@
-const logos = document.querySelectorAll(".gce-logo-ph");
+const logos = document.querySelectorAll(".gce-nps-third-section");
 const popups = document.querySelectorAll(".gce-pu-container");
 const closeouts = document.querySelectorAll(".gce-pu-closeout-container")
 
