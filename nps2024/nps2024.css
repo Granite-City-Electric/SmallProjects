@@ -147,6 +147,7 @@
     right: 0;
     left: 0;
     bottom: 0;
+    padding: 10px;
     background-color: rgba(0 0 0 / .55);
     z-index: 10;
 }
@@ -163,14 +164,14 @@
 
 .gce-pu-content-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .gce-pu-content-header img {width: 200px;}
 
 .gce-pu-closeout-container {
-    padding: 10px;
+    padding: 5px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -185,19 +186,20 @@
 
 .gce-pu-content-body {
     width: 100%;
-    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .gce-pu-content-body-panel {
     width: 50%;
-    padding: 20px;
 }
 
 .gce-pu-content-body-panel:first-of-type {border-right: 1px solid rgba(211 211 211 / 1) ;}
 
 .gce-pu-content-body-panel img {width: 100%;}
+
+.gce-pu-content-product-info {padding-left: 10px;}
+
+.gce-pu-content-product-info a {text-decoration: none;}
 
 .gce-pu-content-product-title {
     font-size: 28px;
@@ -212,9 +214,11 @@
 }
 
 .gce-pu-content-product-specs {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 15px;
-    background-color: rgba(240 240 240 / 1);
+    background-color: rgba(25 91 134 / 1);
     border-radius: 20px;
 }
 
@@ -222,15 +226,34 @@
     margin-right: 5px;
     width: 24px;
     height: 24px;
-    fill: rgba(25 91 134 / 1);
+    fill: rgba(255 255 255 / 1);
 }
 
 .gce-pu-content-product-specs span {
-    color: rgba(25 91 134 / 1);
+    color: rgba(255 255 255 / 1);
     font-weight: 600;
     font-size: 18px;
+    text-align: center;
 }
 
 .gce-pu-content-product-specs:hover {
     background-color: rgba(225 225 225 / 1);
+}
+
+@media (max-width:768px) {
+    .gce-pu-content-body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gce-pu-content-body-panel {width: 65%;}
+    .gce-pu-content-body-panel:first-of-type {border-right: none;}
+}
+
+@media (max-width:576px) {
+    .gce-pu-content-body-panel {width: 85%;}
+}
+
+@media (max-width:425px) {
+    .gce-pu-content-body-panel {width: 100%;}
 }
