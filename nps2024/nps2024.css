@@ -159,13 +159,18 @@
 .gce-pu-content {
     display: flex;
     flex-direction: column;
+    width:650px;
     padding: 10px;
     border-radius: 5px;
 }
 
-.gce-pu-single-product {
+.gce-pu-single-product {height: 500px;}
+
+.gce-pu-double-product {
     width: 650px;
-    height: 500px;
+    height: auto;
+    max-height: 750px;
+    overflow: auto;
 }
 
 .gce-pu-content-header {
@@ -198,10 +203,22 @@
     align-items: center;
 }
 
-.gce-pu-content-body-panel-img {width: 50%;}
+.gce-pu-content-divider {
+    width: 100%;
+    height: 2px;
+    margin: 10px 0;
+    background-color: rgba(240 240 240 / 1);
+}
+
+.gce-pu-content-body-panel-img {width: 50%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
 .gce-pu-content-body-panel-specs {width: 50%;}
 .gce-pu-content-body-panel:first-of-type {border-right: 1px solid rgba(211 211 211 / 1) ;}
-.gce-pu-content-body-panel-img img {width: 100%;}
+.gce-pu-content-body-panel-img img { max-height: 350px;}
 .gce-pu-content-product-info {padding:0 10px;}
 .gce-pu-content-product-info a {text-decoration: none;}
 
@@ -216,22 +233,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
+    margin-bottom:10px;
     background-color: rgba(25 91 134 / 1);
     border-radius: 20px;
 }
 
-.gce-nps-pu-icon-pdf {
+.gce-nps-pu-icon {
     margin-right: 5px;
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     fill: rgba(255 255 255 / 1);
 }
 
 .gce-pu-content-product-specs span {
     color: rgba(255 255 255 / 1);
     font-weight: 600;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -240,7 +258,8 @@
 }
 
 @media (max-width:768px) {
-    .gce-pu-single-product {width: 300px;}
+    .gce-pu-content {width: 300px;}
+    .gce-pu-single-product {height: auto;}
 
     .gce-pu-content-body {
         flex-direction: column;
@@ -250,15 +269,16 @@
 
     .gce-pu-content-body-panel-img {
         width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
+
+    .gce-pu-content-body-panel-img img { max-height: 250px;}
     .gce-pu-content-body-panel-specs {width: 100%;}
+    
+    .gce-nps-pu-icon {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .gce-pu-content-product-specs span {font-size: 16px;}
 }
-
-/* @media (max-width:576px) {
-    .gce-pu-content-body-panel {width: 85%;}
-}
-
-@media (max-width:425px) {
-    .gce-pu-content-body-panel {width: 100%;}
-} */
