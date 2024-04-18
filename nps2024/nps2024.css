@@ -168,8 +168,7 @@
 
 .gce-pu-double-product {
     width: 650px;
-    height: auto;
-    max-height: 750px;
+    max-height: 500px;
     overflow: auto;
 }
 
