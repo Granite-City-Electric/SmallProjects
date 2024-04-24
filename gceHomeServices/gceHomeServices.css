@@ -635,3 +635,28 @@
 .gce-hs-mass-save-logo {
     width: 80%;
 }
+
+/* GCE Home Services Generator CSS */
+
+.gce-hs-bc-hero-generator {
+    background-image: url('https://us.evocdn.io/dealer/1280/content/media/Content_Pages/gce-home-services/winter_storm_generator_1800x700.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 40%;
+}
+
+@media (max-width:768px) {
+    .gce-hs-bc-hero-generator {
+        background-position: 80% 50%;
+    }
+}
+
+@media (max-width:425px) {
+    .gce-hs-bc-hero-generator {
+        background-position: 70% 50%;
+    }
+}
+
+/* General CSS to add for Generators work */
+
+.gce-hs-mh-500 {min-height: 500px;}
