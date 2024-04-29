@@ -230,3 +230,29 @@
     
     .gce-pu-content-product-specs span {font-size: 16px;}
 }
+
+.gce-nps-vote-link {text-decoration: none; margin: 30px 0; width: 60%;}
+
+.gce-nps-vote-link-container {
+    width: 100%;
+    padding: 15px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(25 91 134 / 1);
+    border-radius: 4px;
+}
+
+.gce-nps-vote-link-container:hover {
+    background-color: rgba(22 81 120 / 1);
+}
+
+.gce-nps-vote-link-container span {
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+@media (max-width:768px) {
+    .gce-nps-vote-link {width: 100%;}
+}
