@@ -256,3 +256,7 @@
 @media (max-width:768px) {
     .gce-nps-vote-link {width: 100%;}
 }
+
+.gce-nps-logo-banner {
+    width: 100%;
+}
