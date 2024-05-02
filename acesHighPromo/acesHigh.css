@@ -587,11 +587,13 @@ body {
 .gce-mgm-ss-h1 {
     margin-bottom: 13.4px;
     font-size: 40px;
+    text-align: center !important;
 }
 
 .gce-mgm-ss-h2 {
     margin-bottom: 16.6px !important;
     font-size: 30px !important;
+    text-align: center !important;
 }
 
 .gce-mgm-ss-h3 {
@@ -623,7 +625,7 @@ body {
 .gce-text-mgm-ss-red{
     color: rgba(216 33 41 / 1) !important;
     font-weight: 600 !important;
-    letter-spacing: 4px !important;
+    letter-spacing: 2px !important;
 }
 .gce-mgm-ss-container{
     width: 100%;
@@ -672,6 +674,9 @@ body {
 }
 
 @media (max-width:768px) {
+    .gce-mgm-ss-paragraph {text-align: center;}
+    .gce-mgm-ss-paragraph-thin {text-align: center;}
+
     .gce-mgm-ss-content-panel-container {
         flex-direction: column-reverse;
     }
@@ -679,6 +684,10 @@ body {
     .gce-mgm-ss-content-panel {
         width: 100%;
     }
+}
+
+@media (max-width:400px) {
+    .gce-mgm-ss-paragraph {font-size: 19px;}
 }
 
 .gce-mgm-ss-content-panel-align-mid {align-items: center;}
@@ -690,4 +699,10 @@ body {
 
 .gce-mgm-ss-content-panel-left {
     align-items: flex-start;
+}
+
+@media (max-width:768px) {
+    .gce-mgm-ss-content-panel-left {
+        align-items: center;
+    }
 }
