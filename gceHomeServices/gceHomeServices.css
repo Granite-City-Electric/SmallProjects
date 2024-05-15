@@ -738,8 +738,6 @@
 
 .gce-hs-g-panel-info-container {
     width: 66.66%;
-    height: 500px;
-    background-color: aqua;
 }
 
 @media (max-width:850px) {
@@ -796,7 +794,7 @@
 
 .gce-hs-g-control-header {
     color: rgba(77 77 77 / 1) !important;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -814,11 +812,25 @@
 
 .gce-hs-g-panel-info {
     width: 100%;
-    height: 500px;
     display: none;
 }
 
-.gce-hs-g-panel-info-active {display: block;}
+.gce-hs-g-panel-info-active {display: flex;}
+
+.gce-hs-g-panel-info-text-container {
+    padding: 10px;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.gce-hs-g-panel-info-img {
+    width: 350px;
+}
+
+@media (max-width:576px) {
+    .gce-hs-g-panel-info {flex-direction: column;}
+    .gce-hs-g-panel-info-img {width: 100%;}
+}
 
 /* General CSS to add for Generators work */
 
