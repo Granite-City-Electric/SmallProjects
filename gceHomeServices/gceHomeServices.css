@@ -638,14 +638,83 @@
 
 /* GCE Home Services Generator CSS */
 
-.gce-hs-bc-hero-generator {
-    background-image: url('https://us.evocdn.io/dealer/1280/content/media/Content_Pages/gce-home-services/winter_storm_generator_1800x700.png');
+.gce-hs-g-container {
+    width: 100%; 
+    position: relative;
+}
+
+.gce-hs-g-hero-img {
+    width: 100%;
+    max-height: 700px;
+    height: auto;
+    object-fit: cover;
+    object-position: right center;
+}
+
+.gce-hs-g-container-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0 0 0 / .35);
+}
+
+.gce-hs-g-hero-img-mobile {display: none;}
+
+.gce-hs-g-hero-content-container {
+    position: absolute;
+    width: 500px;
+    top: 10%;
+    left: 20%;
+    background:transparent;
+    box-sizing: border-box;
+}
+
+.gce-hs-g-header {
+    margin: 0;
+    margin-bottom: 32px;
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.gce-hs-g-hero-subheader {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.gce-hs-g-hero-subheader-bold {
+    font-weight: 800;
+}
+
+@media (max-width:1024px){.gce-hs-g-hero-content-container{left:7.5%}}
+
+@media (max-width:576px) {
+    .gce-hs-g-hero-img-desktop {display: none;}
+    .gce-hs-g-hero-img-mobile {display: block;}
+    .gce-hs-g-hero-content-container{width:90%}
+    .gce-hs-g-hero-content-container{left:5%; top:5%}
+    .gce-hs-g-header {font-size: 36px;}
+}
+
+@media (max-width:425px) {
+    .gce-hs-g-hero-subheader {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    .gce-hs-g-header {font-size: 30px;}
+}
+
+
+
+/* .gce-hs-bc-hero-generator {
+    background-image: url('https://kohler.scene7.com/is/image/kohlergbhprod/Short-Hero-aae55746_rgb:Store-Details-Page-Hero-S-Desktop?wid=2880&hei=1271&dpr=off');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 90% 40%;
-}
-
-@media (max-width:768px) {
+} */
+/* @media (max-width:768px) {
     .gce-hs-bc-hero-generator {
         background-position: 80% 50%;
     }
@@ -655,7 +724,7 @@
     .gce-hs-bc-hero-generator {
         background-position: 70% 50%;
     }
-}
+} */
 
 /* General CSS to add for Generators work */
 
