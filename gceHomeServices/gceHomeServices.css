@@ -641,6 +641,7 @@
 .gce-hs-g-container {
     width: 100%; 
     position: relative;
+    font-size: 0;
 }
 
 .gce-hs-g-hero-img {
@@ -725,6 +726,91 @@
         background-position: 70% 50%;
     }
 } */
+
+.gce-hs-g-panel-container {
+    width: 100%;
+    display: flex;
+}
+
+.gce-hs-g-panel-controls-container {
+    width: 33.33%;
+}
+
+.gce-hs-g-panel-info-container {
+    width: 66.66%;
+    height: 500px;
+    background-color: aqua;
+}
+
+@media (max-width:850px) {
+    .gce-hs-g-panel-container {flex-direction: column; gap: 40px;}
+    .gce-hs-g-panel-controls-container{width: 100%; overflow: hidden;}
+    .gce-hs-g-panel-info-container{width: 100%;}
+}
+
+.gce-hs-g-panel-controls {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-left: 1px solid #cdcdcd;
+}
+
+.gce-hs-g-panel-control-header-container {
+    margin-bottom: 40px;
+}
+
+.gce-hs-g-panel-control-header {
+    font-size: 48px;
+    font-weight: 300;
+    color: rgba(32 33 36 / 1) !important;
+}
+
+.gce-hs-g-panel-control {
+    padding: 20px;
+}
+
+@media (max-width:850px) {
+    .gce-hs-g-panel-controls {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        border-left: 0px;
+        border-bottom: 1px solid #cdcdcd;
+    }
+    .gce-hs-g-panel-control {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        color: rgba(77 77 77 / 1);
+    }
+}
+
+.gce-hs-g-panel-control:hover {
+    cursor: pointer;
+}
+
+.gce-hs-g-panel-control-active {
+    border-left: 5px solid rgba(32 33 36 / 1);
+}
+
+.gce-hs-g-control-header {
+    color: rgba(77 77 77 / 1) !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gce-hs-g-panel-control-header-active {
+    color: rgba(32 33 36 / 1) !important;
+    font-weight: 800;
+}
+
+@media (max-width:850px) {
+    .gce-hs-g-panel-control-active {
+        border-left: 0;
+        border-bottom: 5px solid rgba(32 33 36 / 1);
+    }
+}
 
 /* General CSS to add for Generators work */
 
