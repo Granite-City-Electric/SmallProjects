@@ -668,8 +668,39 @@
     width: 500px;
     top: 10%;
     left: 20%;
-    background:transparent;
+    background-color:none;
     box-sizing: border-box;
+}
+
+.gce-hs-g-hero-content-container-flexible {
+    position: absolute;
+    width: 500px;
+    top: 10%;
+    left: 20%;
+    background-color:none;
+    box-sizing: border-box;
+}
+
+.gce-hs-g-container-overlay-flexible {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0 0 0 / .35);
+}
+
+@media (max-width:780px) {
+    .gce-hs-g-hero-content-container-flexible {
+        position: static;
+        padding: 20px;
+        background-color: rgba(68 68 68 / 1);
+        width: 100%;
+        text-align: left;
+    }
+    .gce-hs-g-container-overlay-flexible {
+        display: none;
+    }
 }
 
 .gce-hs-g-header {
@@ -709,13 +740,13 @@
 
 
 
-/* .gce-hs-bc-hero-generator {
-    background-image: url('https://kohler.scene7.com/is/image/kohlergbhprod/Short-Hero-aae55746_rgb:Store-Details-Page-Hero-S-Desktop?wid=2880&hei=1271&dpr=off');
+.gce-hs-bc-hero-generator {
+    background-image: url('https://us.evocdn.io/dealer/1280/content/media/Content_Pages/gce-home-services/winter_storm_generator_1800x700.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 90% 40%;
-} */
-/* @media (max-width:768px) {
+} 
+@media (max-width:768px) {
     .gce-hs-bc-hero-generator {
         background-position: 80% 50%;
     }
@@ -725,7 +756,7 @@
     .gce-hs-bc-hero-generator {
         background-position: 70% 50%;
     }
-} */
+}
 
 .gce-hs-g-panel-container {
     width: 100%;
@@ -813,12 +844,22 @@
 .gce-hs-g-panel-info {
     width: 100%;
     display: none;
+    align-items: center;
 }
 
 .gce-hs-g-panel-info-active {display: flex;}
 
 .gce-hs-g-panel-info-text-container {
-    padding: 10px;
+    padding: 10px 50px 10px 2px;
+}
+
+@media (max-width:576px) {
+    .gce-hs-g-panel-info-text-container {
+        padding: 10px;
+    }
+}
+
+.gce-hs-g-panel-info-text {
     font-size: 22px;
     line-height: 31px;
 }
@@ -831,6 +872,42 @@
     .gce-hs-g-panel-info {flex-direction: column;}
     .gce-hs-g-panel-info-img {width: 100%;}
 }
+
+.gce-hs-g-half-panel-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width:850px) {
+    .gce-hs-g-half-panel-container {
+        width: 100%;
+    }
+}
+
+
+.gce-hs-g-panel-links-container {
+    width:100%;
+    display: flex;
+    gap:20px;
+    text-align: center;
+}
+
+.gce-hs-g-panel-btn-link {
+    width: 30%;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid rgba(32 33 36 / 1);
+}
+
+.gce-hs-g-half-panel-img {width: 100%;};
+
+
+
 
 /* General CSS to add for Generators work */
 
