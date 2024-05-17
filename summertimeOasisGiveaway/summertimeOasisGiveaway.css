@@ -1,14 +1,4 @@
 .gce-bc-summertime-oasis-blue {background-color: #e5f4f5;}
-.gce-text-summertime-oasis-dark-blue {color: rgba(17 66 101 / 1) !important};
-.gce-cta-link-summer-oasis {
-    display: block;
-    padding: 15px;
-    font-size: 1rem;
-    color: rgb(255 255 255 / 1);
-    font-weight: 800;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: rgb(17 66 101 / 1);
-    border-radius: 15px;
-}
+.gce-text-summertime-oasis-dark-blue {color: rgba(17 66 101 / 1) !important;}
+.gce-img-summertime-oasis-logo {width: 80%;}
+.gce-bc-summertime-gradient {background: linear-gradient(180deg, rgba(234,119,92,1) 50%, rgba(238,194,67,1) 100%);}
