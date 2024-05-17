@@ -1,0 +1,14 @@
+.gce-bc-summertime-oasis-blue {background-color: #e5f4f5;}
+.gce-text-summertime-oasis-dark-blue {color: rgba(17 66 101 / 1) !important};
+.gce-cta-link-summer-oasis {
+    display: block;
+    padding: 15px;
+    font-size: 1rem;
+    color: rgb(255 255 255 / 1);
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(17 66 101 / 1);
+    border-radius: 15px;
+}
