@@ -1,2 +1,8 @@
 .gce-bc-rttp-blue {background: rgba(10, 49, 97, 1);}
-.gce-bc-gce-rttp-red {background: rgba(179, 25, 66, 1);}
+.gce-bc-gce-rttp-red {background: radial-gradient(circle, rgba(179, 25, 66, 1), rgba(192,67,101,1));}
+.gce-text-rttp-blue {color: rgba(10, 49, 97, 1);}
+.gce-bc-rttp-blue-grad {background: radial-gradient(circle, rgba(10, 49, 97, 1), rgba(56,87,126,1));}
+.gce-img-rttp-logo {width: 90%;}
+.gce-rttp-header-container {display: flex; justify-content: center; align-items: center;}
+.gce-rttp-header-container img {height: 130px;}
+@media(max-width: 360px) {.gce-rttp-header-container img {height: 80px;}}
