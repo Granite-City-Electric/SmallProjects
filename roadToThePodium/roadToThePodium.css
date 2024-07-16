@@ -1,8 +1,29 @@
 .gce-bc-rttp-blue {background: rgba(10, 49, 97, 1);}
+.gce-bc-rttp-beige {background: rgba(246, 237, 228, 1);}
 .gce-bc-gce-rttp-red {background: radial-gradient(circle, rgba(179, 25, 66, 1), rgba(192,67,101,1));}
 .gce-text-rttp-blue {color: rgba(10, 49, 97, 1);}
-.gce-bc-rttp-blue-grad {background: radial-gradient(circle, rgba(10, 49, 97, 1), rgba(56,87,126,1));}
+.gce-text-rttp-gold {color: rgba(227,194,88,1);}
+.gce-text-rttp-silver {color: rgba(73,73,73,1);}
+.gce-text-rttp-bronze {color: rgba(169,71,28,1);}
+/* .gce-bc-rttp-blue-grad {background: radial-gradient(circle, rgba(10, 49, 97, 1), rgba(56,87,126,1));} */
+.gce-bc-rttp-blue-grad {background: radial-gradient(circle, rgba(75,103,138), rgba(135,154,177));}
 .gce-img-rttp-logo {width: 90%;}
 .gce-rttp-header-container {display: flex; justify-content: center; align-items: center;}
 .gce-rttp-header-container img {height: 130px;}
 @media(max-width: 360px) {.gce-rttp-header-container img {height: 80px;}}
+
+
+.gce-rttp-h2
+ {
+    font-weight: 800 !important;
+    line-height: 1.4 !important;
+    margin-bottom: 16.6px !important;
+    font-size: 30px !important;
+}
+
+@media (max-width: 768px) {
+    .gce-rttp-h2 {
+        margin-bottom: 13.28px !important;
+        font-size: 24px !important;
+    } 
+}
