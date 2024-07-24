@@ -12,12 +12,14 @@ body{
 }
 
 .gce-in-fw {width: 100%;}
+.gce-in-hw {width: 50%;}
 .gce-in-section {width: 100%; max-width: 900px;}
 
 .gce-in-flex {display: flex;}
 .gce-in-flex-dir-col {flex-direction: column;}
 .gce-in-flex-just-center {justify-content: center;}
 .gce-in-flex-just-btwn {justify-content: space-between;}
+.gce-in-flex-just-end {justify-content: flex-end;}
 .gce-in-flex-align-center {align-items: center;}
 
 .gce-in-header {
@@ -65,18 +67,39 @@ body{
 }
 
 .gce-in-header-text-white {
-    color: white;
+    color: white !important;
     font-size: 170px;
     letter-spacing: -10px;
 }
 
 .gce-in-header-text-yellow {
-    color: rgb(253,196,47);
+    color: rgb(253,196,47) !important;
     font-size: 130px;
     letter-spacing: -5px;
 }
 
-.gce-in-subheader {
-    font-size: 32px;
-    font-weight: 300;
+.gce-in-sale-graphic {width: 63%;}
+
+.gce-in-promo-len {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: rgba(20,93,167,1) !important;
+    font-size: 50px; 
+    font-weight: 1000;
+    text-align: right;
+}
+
+
+.gce-in-date-text {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: rgba(229,46,51,1) !important;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: right;
+}
+
+.gce-in-p-text {
+    font-size: 14px;
+    color: #6b6b6b !important;
 }
