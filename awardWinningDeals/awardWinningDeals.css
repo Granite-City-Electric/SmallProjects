@@ -1,0 +1,49 @@
+body {
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+}
+
+.gce-awd-flex {display: flex;}
+.gce-awd-flex-col {flex-direction: column;}
+.gce-awd-flex-just-center {justify-content: center;}
+.gce-awd-flex-just-btwn {justify-content: space-between;}
+.gce-awd-flex-align-center {align-items: center;}
+
+.gce-awd-fw {width: 100%;}
+.gce-awd-fh {height: 100%;}
+.gce-awd-section {max-width: 900px;}
+
+.gce-awd-mx-s {margin-left:5px; margin-right: 5px;}
+.gce-awd-mx-m {margin-left:10px; margin-right: 10px;}
+.gce-awd-mx-l {margin-left:15px; margin-right: 15px;}
+
+.gce-awd-mh-s {margin-top:5px; margin-bottom: 5px;}
+.gce-awd-mh-m {margin-top:10px; margin-bottom: 10px;}
+.gce-awd-mh-l {margin-top:15px; margin-bottom: 15px;}
+
+.gce-awd-px-s {padding-left:5px; padding-right: 5px;}
+.gce-awd-px-m {padding-left:10px; padding-right: 10px;}
+.gce-awd-px-l {padding-left:15px; padding-right: 15px;}
+
+.gce-awd-ph-s {padding-top:5px; padding-bottom: 5px;}
+.gce-awd-ph-m {padding-top:10px; padding-bottom: 10px;}
+.gce-awd-ph-l {padding-top:15px; padding-bottom: 15px;}
+
+.gce-awd-header {background-color: #000042;}
+.gce-awd-header-text {
+    margin: 0;
+    font-family: "Bungee Inline", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white !important;
+    text-transform: uppercase; 
+}
+.gce-awd-header-text-s {
+    font-size: 36px;
+    line-height: 36px;
+}
+.gce-awd-header-text-l {
+    font-size:96px;
+    line-height: 96px;
+    letter-spacing: 3px;
+}
