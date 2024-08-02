@@ -47,3 +47,15 @@ body {
     line-height: 96px;
     letter-spacing: 3px;
 }
+
+.gce-awd-header-star {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+}
+
+@media (max-width:425px) {
+    .gce-awd-header-text-s {font-size: 24px; line-height: 24px;}
+    .gce-awd-header-text-l {font-size: 48px; line-height: 48px;}
+    .gce-awd-header-star {width: 18px; height: 18px;}
+}
