@@ -84,7 +84,7 @@ body{
     margin-top: 0;
     margin-bottom: 15px;
     color: rgba(20,93,167,1) !important;
-    font-size: 50px; 
+    font-size: 50px !important; 
     font-weight: 1000;
     text-align: right;
 }
@@ -94,12 +94,32 @@ body{
     margin-top: 0;
     margin-bottom: 15px;
     color: rgba(229,46,51,1) !important;
-    font-size: 50px;
+    font-size: 50px !important;
     font-weight: 1000;
-    text-align: right;
 }
 
 .gce-in-p-text {
     font-size: 14px;
     color: #6b6b6b !important;
+}
+
+@media (max-width: 900px) {
+    .gce-in-header-text-white {font-size: 130px;}
+    .gce-in-header-text-yellow {font-size: 100px;}
+    .gce-in-promo-len {font-size: 40px !important;}
+    .gce-in-date-text {font-size: 40px !important;}
+}
+
+@media (max-width: 660px) {
+    .gce-in-header-text-white {font-size: 80px; letter-spacing: 0px;}
+    .gce-in-header-text-yellow {font-size: 60px; letter-spacing: 0px;}
+    .gce-in-promo-len {font-size: 32px !important;}
+    .gce-in-date-text {font-size: 32px !important;}
+}
+
+@media (max-width:500px) {
+    .gce-in-header-text-white {font-size: 50px; letter-spacing: 0px;}
+    .gce-in-header-text-yellow {font-size: 35px; letter-spacing: 0px;}
+    .gce-in-promo-len {font-size: 18px !important;}
+    .gce-in-date-text {font-size: 18px !important;}
 }

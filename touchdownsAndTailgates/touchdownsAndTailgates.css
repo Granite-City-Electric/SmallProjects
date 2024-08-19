@@ -1,0 +1,17 @@
+.gce-tt-field-br {
+    background-image: url('https://us.evocdn.io/dealer/1280/content/media/Content_Pages/touchdowns-and-tailgates/jason-dent-QSIq9ncQkzY-unsplash.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.gce-tt-field-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0 0 0 / .4);
+}
+
+.gce-tt-light-green-br {background: radial-gradient(#B5C0A1,#a3b18a);}
+.gce-tt-grey-green-br {background: radial-gradient(#dad7cd,#e5e3dc);}
