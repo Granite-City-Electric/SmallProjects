@@ -1,7 +1,7 @@
 .gce-tt-field-br {
-    background-image: url('https://us.evocdn.io/dealer/1280/content/media/Content_Pages/touchdowns-and-tailgates/jason-dent-QSIq9ncQkzY-unsplash.png');
+    background-image: url('https://us.evocdn.io/dealer/1280/content/media/Content_Pages/touchdowns-and-tailgates/stock-photo-green-synthetic-grass-sports-field-with-white-line-shot-from-above-sports-background-for-product-final.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 75%;
 }
 
 .gce-tt-field-overlay {
@@ -10,8 +10,15 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0 0 0 / .4);
+    background-color: rgba(0 0 0 / .5);
 }
 
+.gce-tt-text-dblue {color: #003B5C !important;}
+
 .gce-tt-light-green-br {background: radial-gradient(#B5C0A1,#a3b18a);}
+.gce-tt-grey-white-gradient-br {background: linear-gradient(180deg, hsla(213, 9%, 76%, 1) 0%, hsla(0, 0%, 100%, 1) 59%);}
 .gce-tt-grey-green-br {background: radial-gradient(#dad7cd,#e5e3dc);}
+
+.gce-img-tt-logo{width: 90%;}
+
+.gce-tt-red-top-bord {border-top: 10px solid #D22630;}
