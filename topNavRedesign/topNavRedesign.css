@@ -1,0 +1,35 @@
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+.header-full {
+    width: 100%;
+}
+
+.header-section-2 {
+    width: 100%;
+
+    background: linear-gradient(180deg, #086596 0%, #033d5f 100%);
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px ;
+}
+
+.header-container {width: 100%; max-width: 1450px;}
+
+.header-section-2-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {width: 190px;}
+
+/* 
+Header Breakpoints
+ 1470px --> 1450px width
+  1200 --> 1180px width
+   990px --> 970px width
+    1470px --> 1450px width
