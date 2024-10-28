@@ -121,15 +121,24 @@ header{font-family: 'Mulish', sans-serif;}
 .header-section-3-content {
     display: flex;
     justify-content: center;
-    padding: 15px 0;
     overflow-y: visible;
 }
+
+.header-section-links {position: relative;}
 
 .header-section-3-link {
     font-size: 17px;
     line-height: 14px;
     margin: 0 25px;
     text-transform: uppercase;
+    position: static;
+}
+
+.header-section-3-link-contain {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 15px 8px;
 }
 
 .header-section-3-link a {
@@ -139,6 +148,23 @@ header{font-family: 'Mulish', sans-serif;}
     text-transform: uppercase;
     cursor: pointer;
 }
+
+.header-section-3-link:hover > a {
+    color: white;
+}
+
+.header-section-3-link:hover .header-section-3-link-contain {background-color: #033d5f;}
+
+.header-section-3-flyout {
+    display: none;
+    position:absolute;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: lightgrey;
+}
+
+.header-section-3-link:hover > .header-section-3-flyout {display: block;}
 
 /* 
 Header Breakpoints
