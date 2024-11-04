@@ -158,6 +158,7 @@
 .header-section-3-link:hover .header-section-3-link-contain {background-color: #033d5f;}
 
 .header-section-3-flyout {
+    padding: 15px;
     position:absolute;
     left: 0;
     width: 100%;
@@ -171,6 +172,55 @@
     border-bottom-right-radius: 5px;
     z-index: 25;
 }
+
+.flyout-content {
+    display: flex;
+}
+
+.flyout-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.qtr-panel {width: 25%;};
+.third-panel {width: 33%;};
+.half-panel {width: 50%;};
+.full-panel {width: 100%;};
+
+.flyout-links-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.flyout-panel-link {
+    list-style-type: none;
+    padding-right: 20px;
+    margin-bottom: 5px;
+}
+
+.flyout-panel-link a {
+    display: block;
+    padding: 5px 0 5px 15px;
+}
+
+.flyout-panel-link a:hover {
+    text-decoration: underline;
+}
+
+.flyout-panel-man-link {
+    display: flex;
+    align-items: center;
+}
+
+.flyout-panel-logo {
+    width: 50px;
+    margin-right: 7px;
+}
+
+.img-panel {padding: 0 5px;}
+
+.flyout-panel-img {width: 100%;}
 
 .show-flyout {display: block;}
 .hide-flyout {display: none;}
