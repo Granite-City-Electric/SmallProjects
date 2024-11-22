@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #086596 0%, #033d5f 100%);
+}
+
+nav {
+    width: 100%;
+    max-width: 1200px;
+    height: 80px;
+
+}
+
+.gce-hg-hero {
+    width: 100%;
+    height: 405px;
+    padding-bottom: 31.25%;
+}
+
+.bg-hg-img-desk {width: 100%;}
+.bg-hg-img-mobile {display: none;}
+
+@media (max-width:1600px) {
+    .bg-hg-img-desk {
+        width: 100%;
+        height: 405px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+}
+
+@media (max-width: 875px) {
+    .gce-hg-hero {padding-bottom: 150%;}
+    .bg-hg-img-desk {display: none;}
+    .bg-hg-img-mobile {
+        display: block;
+        width: 100%;
+    }
+}
+
+.gce-sweep-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gce-sweep-section {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.gce-sweep-header-flex {display: flex; justify-content: center;}
+
+.gce-sweep-header-section {
+    width: 100%;
+    padding: 20px 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.gce-sweepheader-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.gce-sweep-header-nav li a {
+    padding: 32px 24px;
+    color: rgb(9, 86, 65);
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.gce-sweep-header-button {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.gce-sweep-button {
+    padding: 16px 48px;
+    background-color: #EDC91A;
+    color: rgb(9, 86, 65);
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media (max-width: 990px) {
+    .gce-sweepheader-nav li a {
+        padding: 32px 12px;
+        font-size: 14px;
+    }
+
+    .gce-sweep-button {font-size: 14px;}
+}
+
+@media (max-width: 600px) {
+    .gce-sweep-header-section {padding: 15px 0;}
+    .gce-sweep-header-flex {flex-direction: column; align-items: center; gap: 20px;}
+    .gce-sweep-header-nav {width: 100%; justify-content: space-around;}
+    .gce-sweep-header-nav li a {padding: 16px 6px;}
+    .gce-sweep-header-button {margin-left: 0; display: flex; justify-content: center;}
+    .gce-sweep-button-adjusted {width: 80%;}
+} 
+
+
+
+.gce-sweep-hero-section img {width:95%; max-width: 600px; border-radius: 5px;}
+.gce-sweep-hero-section h1 {font-size: 80px; color: #EDC91A; margin: 36px 0 0 0;}
+.gce-sweep-hero-section p {font-size: 36px; color: #EDC91A; text-transform: uppercase; margin: 36px 0; font-weight: 800;}
+
+@media (max-width: 768px) {
+    .gce-sweep-hero-section h1 {font-size: 60px;}
+    .gce-sweep-hero-section p {font-size: 24px;}
+}
+
+@media (max-width: 585px) {
+    .gce-sweep-hero-section h1 {font-size: 40px;}
+    .gce-sweep-hero-section p {font-size: 20px;}
+}
+
+@media (max-width: 415px) {
+    .gce-sweep-hero-section h1 {font-size: 36px;}
+    .gce-sweep-hero-section p {font-size: 16px;}
+}
+
+
+
+.gce-sweep-prizes-header {
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gce-sweep-prizes-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.gce-sweep-prize {
+    display: flex;
+    padding: 20px 0;
+}
+
+.gce-sweep-prize-base {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.gce-sweep-prize-img {display:flex; justify-content: center; width: 50%; padding: 10px;}
+.gce-sweep-prize-img-container {width: 80%; display: flex; justify-content: center;}
+.gce-sweep-prize-img-ice {width: 100%;}
+.gce-sweep-prize-img-silo {width: 80%;}
+.gce-sweep-prize-img-bg-white {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 0;
+}
+
+.gce-sweep-prize-img-silo {width: 60%;}
+
+.gce-sweep-prize-description-container {display:flex; align-items: center; width: 50%; padding: 10px;}
+
+
+.gce-sweep-prize-description {
+    margin: 0;
+    font-size: 24px;
+}
+
+.gce-sweep-prize-description span {font-weight: 800;}
+
+@media (max-width: 765px) {
+    .gce-sweep-prize {flex-direction: column; align-items: center;}
+}
+
+@media (max-width: 600px) {
+    .gce-sweep-prize-img-basic {width: 90%;}
+    .gce-sweep-prize-img-container {width: 100%;}
+    .gce-sweep-prize-img {width: 85%;}
+    .gce-sweep-prizes-header {font-size: 40px;}
+    .gce-sweep-prize-description-container {width: 90%;}
+    .gce-sweep-prize-description {font-size: 20px;}
+}
+
+.gce-sweep-rules-header {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: rgb(9, 86, 65);
+    text-align: center;
+}
+
+.gce-sweep-promo-rule {display: flex;align-items: center; margin-bottom: 15px;}
+.gce-sweep-promo-rule-caret-right {width: 20px; margin-right: 10px;display: flex; align-items: center;}
+.gce-sweep-rules-p {font-size: 24px;}
+
+.gce-sweep-bold-text {font-weight: 800;}
+
+
+@media (max-width: 600px) {
+    .gce-sweep-rules-p {font-size: 20px;}
+}
+
+/* Sweepstakes Font Colors */
+.gce-sweep-text-black {color: black;}
+.gce-sweep-text-white {color: white;}
+
+
+/* Sweep stakes specific CSS */
+.gce-sweep-borgane {background-color: rgba(197 107 31 /1);}
+.gce-sweep-slate-g {color: rgba(80 78 79 / 1);}

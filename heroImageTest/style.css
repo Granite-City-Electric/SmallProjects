@@ -18,16 +18,16 @@ nav {
 
 }
 
-.hero {
+.gce-hg-hero {
     width: 100%;
     height: 405px;
 }
 
-.bg-img-desk {width: 100%;}
-.bg-img-mobile {display: none;}
+.bg-hg-img-desk {width: 100%;}
+.bg-hg-img-mobile {display: none;}
 
 @media (max-width:1600px) {
-    .bg-img-desk {
+    .bg-hg-img-desk {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -36,9 +36,11 @@ nav {
 }
 
 @media (max-width: 875px) {
-    .bg-img-desk {display: none;}
-    .bg-img-mobile {
+    .bg-hg-img-desk {display: none;}
+    .bg-hg-img-mobile {
         display: block;
         width: 100%;
     }
 }
+
+

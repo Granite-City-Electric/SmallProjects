@@ -27,3 +27,18 @@
         font-size: 24px !important;
     } 
 }
+
+.gce-rttp-winners {
+    display: flex;
+    flex-direction: column;
+}
+
+.gce-rttp-winner-container {
+    display: flex;
+    align-items: center;
+}
+
+.gce-rttp-winner-medal img {
+    margin-right: 10px;
+    width: 25px;
+}

@@ -79,9 +79,9 @@ body {margin: 0; padding: 0; box-sizing: border-box; font-family: "Mulish", sans
 } 
 
 .ri-main-top {
-    height: 1000px;
+    padding: 30px 0;
     background: linear-gradient(180deg, rgba(237, 201, 26, .75) 0%, rgba(238, 118, 35, .75) 100%);
-    border-bottom: 3px solid rgb(9, 86, 65);
+    border-bottom: 3px solid white;
 }
 
 .ri-hero-container {
@@ -120,3 +120,87 @@ body {margin: 0; padding: 0; box-sizing: border-box; font-family: "Mulish", sans
     .ri-hero-section h1 {font-size: 36px;}
     .ri-hero-section p {font-size: 16px;}
 }
+
+
+.ri-prize-section {background-color: rgb(9, 86, 65); padding: 30px 0;}
+.ri-prizes-header {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #EDC91A;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.ri-prizes-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.ri-prize {
+    display: flex;
+    padding: 20px 0;
+}
+
+.ri-prize-base {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.ri-prize-img {display:flex; justify-content: center; width: 50%; padding: 10px;}
+.ri-prize-img-container {width: 80%; display: flex; justify-content: center;}
+.ri-prize-img-ice {width: 100%;}
+.ri-prize-img-silo {width: 80%;}
+.ri-prize-img-bg-white {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 0;
+}
+
+.ri-prize-img-silo {width: 60%;}
+
+.ri-prize-description-container {display:flex; align-items: center; width: 50%; padding: 10px;}
+
+
+.ri-prize-description {
+    margin: 0;
+    color: #EDC91A;
+    font-size: 24px;
+}
+
+.ri-prize-description span {font-weight: 800;}
+
+@media (max-width: 765px) {
+    .ri-prize {flex-direction: column; align-items: center;}
+}
+
+@media (max-width: 600px) {
+    .ri-prize-img-basic {width: 90%;}
+    .ri-prize-img-container {width: 100%;}
+    .ri-prize-img {width: 85%;}
+    .ri-prizes-header {font-size: 40px;}
+    .ri-prize-description-container {width: 90%;}
+    .ri-prize-description {font-size: 20px;}
+}
+
+.ri-rules-header {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: rgb(9, 86, 65);
+    text-align: center;
+}
+
+.ri-promo-rule {display: flex;align-items: center;}
+.ri-promo-rule-caret-right {width: 20px; fill: rgb(9, 86, 65);margin-right: 10px;display: flex; align-items: center;}
+.ri-rules-p {color: rgb(9, 86, 65);font-size: 24px;}
+
+.ri-bold-text {font-weight: 800;}
+.ri-rules-link {color: rgb(9, 86, 65);}
+
+@media (max-width: 600px) {
+    .ri-rules-p {font-size: 20px;}
+}
+
